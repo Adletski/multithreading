@@ -17,6 +17,9 @@
 		7FAB18CF2BA9C4EE001701BE /* TaskTwoTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18CE2BA9C4EE001701BE /* TaskTwoTwo.swift */; };
 		7FAB18D12BA9D967001701BE /* TestFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18D02BA9D967001701BE /* TestFive.swift */; };
 		7FAB18D32BAAD953001701BE /* TaskTwoThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18D22BAAD953001701BE /* TaskTwoThree.swift */; };
+		7FAB18D52BAADE79001701BE /* TaskTwoFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18D42BAADE79001701BE /* TaskTwoFour.swift */; };
+		7FAB18D72BAADED5001701BE /* TaskTwoFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18D62BAADED5001701BE /* TaskTwoFive.swift */; };
+		7FAB18D92BAADF47001701BE /* TaskTwoSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18D82BAADF47001701BE /* TaskTwoSix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		7FAB18CE2BA9C4EE001701BE /* TaskTwoTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoTwo.swift; sourceTree = "<group>"; };
 		7FAB18D02BA9D967001701BE /* TestFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFive.swift; sourceTree = "<group>"; };
 		7FAB18D22BAAD953001701BE /* TaskTwoThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoThree.swift; sourceTree = "<group>"; };
+		7FAB18D42BAADE79001701BE /* TaskTwoFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoFour.swift; sourceTree = "<group>"; };
+		7FAB18D62BAADED5001701BE /* TaskTwoFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoFive.swift; sourceTree = "<group>"; };
+		7FAB18D82BAADF47001701BE /* TaskTwoSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoSix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,9 @@
 				7FAB18CE2BA9C4EE001701BE /* TaskTwoTwo.swift */,
 				7FAB18D02BA9D967001701BE /* TestFive.swift */,
 				7FAB18D22BAAD953001701BE /* TaskTwoThree.swift */,
+				7FAB18D42BAADE79001701BE /* TaskTwoFour.swift */,
+				7FAB18D62BAADED5001701BE /* TaskTwoFive.swift */,
+				7FAB18D82BAADF47001701BE /* TaskTwoSix.swift */,
 			);
 			path = multithreading;
 			sourceTree = "<group>";
@@ -155,7 +164,10 @@
 				7FAB18CF2BA9C4EE001701BE /* TaskTwoTwo.swift in Sources */,
 				7FAB18D32BAAD953001701BE /* TaskTwoThree.swift in Sources */,
 				7FAB18B62BA9695D001701BE /* AppDelegate.swift in Sources */,
+				7FAB18D72BAADED5001701BE /* TaskTwoFive.swift in Sources */,
+				7FAB18D52BAADE79001701BE /* TaskTwoFour.swift in Sources */,
 				7FAB18B82BA9695D001701BE /* SceneDelegate.swift in Sources */,
+				7FAB18D92BAADF47001701BE /* TaskTwoSix.swift in Sources */,
 				7FAB18D12BA9D967001701BE /* TestFive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

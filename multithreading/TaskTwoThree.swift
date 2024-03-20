@@ -31,24 +31,26 @@ class TaskTwoThree: UIViewController {
 // если sync то выполнится сначала глобал
 // проблема в том, что так как у нас global.async то непонятно когда он выполнится и получается может произойти момент когда меняем имя и считываем одновременно c прайвет lockQueue мы можем эти действия положить в одну очередь и там изменять и смотреть
 
-/*class TaskTwoThree: UIViewController {
+//class TaskTwoThree: UIViewController {
+//    private let lockQueue = DispatchQueue(label: "name.lock.queue")
+//    private var name = "Введите имя"
+//    
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        
+//        updateName()
+//    }
+//    
+//    func updateName() {
+//        DispatchQueue.global().async {
+//            self.lockQueue.async {
+//                self.name = "I love RM"
+//            }
+//        }
+//        
+//        lockQueue.async {
+//            print(self.name)
+//        }
+//    }
+//}
  
- private var name = "Введите имя"
- 
- override func viewDidLoad() {
- super.viewDidLoad()
- 
- updateName()
- }
- 
- func updateName() {
- DispatchQueue.global().async {
- self.name = "I love RM" // Перезаписываем имя в другом потоке
- print(Thread.current)
- print(self.name)
- }
- 
- print(self.name) // Считываем имя из main
- }
- }
- */
