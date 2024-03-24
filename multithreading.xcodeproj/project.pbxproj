@@ -20,6 +20,10 @@
 		7FAB18D52BAADE79001701BE /* TaskTwoFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18D42BAADE79001701BE /* TaskTwoFour.swift */; };
 		7FAB18D72BAADED5001701BE /* TaskTwoFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18D62BAADED5001701BE /* TaskTwoFive.swift */; };
 		7FAB18D92BAADF47001701BE /* TaskTwoSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18D82BAADF47001701BE /* TaskTwoSix.swift */; };
+		7FAB18DB2BAB7847001701BE /* TaskThreeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18DA2BAB7847001701BE /* TaskThreeOne.swift */; };
+		7FAB18E02BAC7283001701BE /* TaskThreeTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18DF2BAC7282001701BE /* TaskThreeTwo.swift */; };
+		7FAB18E22BAC8EC2001701BE /* TaskThreeThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18E12BAC8EC2001701BE /* TaskThreeThree.swift */; };
+		7FAB18E52BADA4ED001701BE /* TaskFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18E42BADA4ED001701BE /* TaskFour.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		7FAB18D42BAADE79001701BE /* TaskTwoFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoFour.swift; sourceTree = "<group>"; };
 		7FAB18D62BAADED5001701BE /* TaskTwoFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoFive.swift; sourceTree = "<group>"; };
 		7FAB18D82BAADF47001701BE /* TaskTwoSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTwoSix.swift; sourceTree = "<group>"; };
+		7FAB18DA2BAB7847001701BE /* TaskThreeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeOne.swift; sourceTree = "<group>"; };
+		7FAB18DF2BAC7282001701BE /* TaskThreeTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeTwo.swift; sourceTree = "<group>"; };
+		7FAB18E12BAC8EC2001701BE /* TaskThreeThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeThree.swift; sourceTree = "<group>"; };
+		7FAB18E42BADA4ED001701BE /* TaskFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFour.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,13 +78,31 @@
 		7FAB18B42BA9695D001701BE /* multithreading */ = {
 			isa = PBXGroup;
 			children = (
+				7FAB18E32BADA4E0001701BE /* Task4 */,
+				7FAB18DD2BAB785F001701BE /* Task 2 */,
+				7FAB18DC2BAB784F001701BE /* Task 1 */,
 				7FAB18B52BA9695D001701BE /* AppDelegate.swift */,
 				7FAB18B72BA9695D001701BE /* SceneDelegate.swift */,
-				7FAB18B92BA9695D001701BE /* TaskOne.swift */,
 				7FAB18BB2BA9695D001701BE /* Main.storyboard */,
 				7FAB18BE2BA9695F001701BE /* Assets.xcassets */,
 				7FAB18C02BA9695F001701BE /* LaunchScreen.storyboard */,
 				7FAB18C32BA9695F001701BE /* Info.plist */,
+				7FAB18DE2BAB786B001701BE /* Task 3 */,
+			);
+			path = multithreading;
+			sourceTree = "<group>";
+		};
+		7FAB18DC2BAB784F001701BE /* Task 1 */ = {
+			isa = PBXGroup;
+			children = (
+				7FAB18B92BA9695D001701BE /* TaskOne.swift */,
+			);
+			path = "Task 1";
+			sourceTree = "<group>";
+		};
+		7FAB18DD2BAB785F001701BE /* Task 2 */ = {
+			isa = PBXGroup;
+			children = (
 				7FAB18C92BA9B90F001701BE /* TaskTwoOne.swift */,
 				7FAB18CE2BA9C4EE001701BE /* TaskTwoTwo.swift */,
 				7FAB18D02BA9D967001701BE /* TestFive.swift */,
@@ -85,7 +111,25 @@
 				7FAB18D62BAADED5001701BE /* TaskTwoFive.swift */,
 				7FAB18D82BAADF47001701BE /* TaskTwoSix.swift */,
 			);
-			path = multithreading;
+			path = "Task 2";
+			sourceTree = "<group>";
+		};
+		7FAB18DE2BAB786B001701BE /* Task 3 */ = {
+			isa = PBXGroup;
+			children = (
+				7FAB18DA2BAB7847001701BE /* TaskThreeOne.swift */,
+				7FAB18DF2BAC7282001701BE /* TaskThreeTwo.swift */,
+				7FAB18E12BAC8EC2001701BE /* TaskThreeThree.swift */,
+			);
+			path = "Task 3";
+			sourceTree = "<group>";
+		};
+		7FAB18E32BADA4E0001701BE /* Task4 */ = {
+			isa = PBXGroup;
+			children = (
+				7FAB18E42BADA4ED001701BE /* TaskFour.swift */,
+			);
+			path = Task4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,9 +209,13 @@
 				7FAB18D32BAAD953001701BE /* TaskTwoThree.swift in Sources */,
 				7FAB18B62BA9695D001701BE /* AppDelegate.swift in Sources */,
 				7FAB18D72BAADED5001701BE /* TaskTwoFive.swift in Sources */,
+				7FAB18E52BADA4ED001701BE /* TaskFour.swift in Sources */,
 				7FAB18D52BAADE79001701BE /* TaskTwoFour.swift in Sources */,
 				7FAB18B82BA9695D001701BE /* SceneDelegate.swift in Sources */,
 				7FAB18D92BAADF47001701BE /* TaskTwoSix.swift in Sources */,
+				7FAB18DB2BAB7847001701BE /* TaskThreeOne.swift in Sources */,
+				7FAB18E02BAC7283001701BE /* TaskThreeTwo.swift in Sources */,
+				7FAB18E22BAC8EC2001701BE /* TaskThreeThree.swift in Sources */,
 				7FAB18D12BA9D967001701BE /* TestFive.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
