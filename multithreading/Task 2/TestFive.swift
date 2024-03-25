@@ -21,7 +21,7 @@ class TestFive: UIViewController {
         infinityThread.start()
 
         // Подождем некоторое время, а затем отменяем выполнение потока
-        sleep(5)
+        sleep(2)
         // Отменяем тут
         infinityThread.cancel()
     }
