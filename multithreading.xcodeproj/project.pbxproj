@@ -24,6 +24,7 @@
 		7FAB18E02BAC7283001701BE /* TaskThreeTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18DF2BAC7282001701BE /* TaskThreeTwo.swift */; };
 		7FAB18E22BAC8EC2001701BE /* TaskThreeThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18E12BAC8EC2001701BE /* TaskThreeThree.swift */; };
 		7FAB18E52BADA4ED001701BE /* TaskFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18E42BADA4ED001701BE /* TaskFour.swift */; };
+		7FAB18E82BB03EDB001701BE /* TaskFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FAB18E72BB03EDB001701BE /* TaskFive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		7FAB18DF2BAC7282001701BE /* TaskThreeTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeTwo.swift; sourceTree = "<group>"; };
 		7FAB18E12BAC8EC2001701BE /* TaskThreeThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskThreeThree.swift; sourceTree = "<group>"; };
 		7FAB18E42BADA4ED001701BE /* TaskFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFour.swift; sourceTree = "<group>"; };
+		7FAB18E72BB03EDB001701BE /* TaskFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		7FAB18B42BA9695D001701BE /* multithreading */ = {
 			isa = PBXGroup;
 			children = (
+				7FAB18E62BB03ECF001701BE /* Task5 */,
 				7FAB18E32BADA4E0001701BE /* Task4 */,
 				7FAB18DD2BAB785F001701BE /* Task 2 */,
 				7FAB18DC2BAB784F001701BE /* Task 1 */,
@@ -130,6 +133,14 @@
 				7FAB18E42BADA4ED001701BE /* TaskFour.swift */,
 			);
 			path = Task4;
+			sourceTree = "<group>";
+		};
+		7FAB18E62BB03ECF001701BE /* Task5 */ = {
+			isa = PBXGroup;
+			children = (
+				7FAB18E72BB03EDB001701BE /* TaskFive.swift */,
+			);
+			path = Task5;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +218,7 @@
 				7FAB18CA2BA9B90F001701BE /* TaskTwoOne.swift in Sources */,
 				7FAB18CF2BA9C4EE001701BE /* TaskTwoTwo.swift in Sources */,
 				7FAB18D32BAAD953001701BE /* TaskTwoThree.swift in Sources */,
+				7FAB18E82BB03EDB001701BE /* TaskFive.swift in Sources */,
 				7FAB18B62BA9695D001701BE /* AppDelegate.swift in Sources */,
 				7FAB18D72BAADED5001701BE /* TaskTwoFive.swift in Sources */,
 				7FAB18E52BADA4ED001701BE /* TaskFour.swift in Sources */,
